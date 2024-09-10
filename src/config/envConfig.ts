@@ -7,7 +7,7 @@ let env: envSchemaType | null = null;
 const productionConfig: IConfig = {
   base_url: "https://onechat-server.onrender.com/api/v1",
   absolute_base_url: "https://onechat-server.onrender.com",
-  clientUrl: "https://baatchit.online"
+  clientUrl: "https://onechat-client.onrender.com"
 };
 
 const developmentConfig: IConfig = {
