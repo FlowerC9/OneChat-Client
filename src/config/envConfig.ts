@@ -5,8 +5,8 @@ import { envSchema, envSchemaType } from "../schemas/envSchema";
 let env: envSchemaType | null = null;
 
 const productionConfig: IConfig = {
-  base_url: "https://stangchatbackend.online/api/v1",
-  absolute_base_url: "https://stangchatbackend.online",
+  base_url: "https://onechat-server.onrender.com/api/v1",
+  absolute_base_url: "https://onechat-server.onrender.com",
   clientUrl: "https://baatchit.online"
 };
 
