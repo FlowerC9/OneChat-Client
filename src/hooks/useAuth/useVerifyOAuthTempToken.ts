@@ -11,7 +11,7 @@ export const useVerifyOAuthTempToken = () => {
     const dispatch = useAppDispatch()
 
     const [verifyTempToken,{error,isError,isLoading,isSuccess,isUninitialized,data}] = useVerifyOAuthTempTokenMutation()
-    useToast({error,isError,isLoading,isSuccess,isUninitialized,loaderToast:true,successMessage:"Welcome to baatchit, we are happy to have you on-board",successToast:true})
+    useToast({error,isError,isLoading,isSuccess,isUninitialized,loaderToast:true,successMessage:"Welcome to OneChat, we are happy to have you on-board",successToast:true})
 
     const updateLoggedInUserCallBack = (publicKey?:string)=>{
         if(data?.user){
